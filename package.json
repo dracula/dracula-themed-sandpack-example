@@ -1,0 +1,41 @@
+{
+	"name": "my-nextjs-starter-kit",
+	"version": "1.0.0",
+	"description": "Personal Next.js starter kit.",
+	"private": false,
+	"author": "Lucas de França",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"prepare": "husky install"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	},
+	"dependencies": {
+		"classnames": "^2.3.1",
+		"date-fns": "^2.28.0",
+		"framer-motion": "^6.2.8",
+		"lottie-web": "^5.9.1",
+		"next": "12.1.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-hot-toast": "^2.2.0",
+		"react-intersection-observer": "^8.33.1",
+		"sass": "^1.49.9",
+		"use-sound": "^4.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.21",
+		"@types/react": "17.0.39",
+		"eslint": "8.10.0",
+		"eslint-config-next": "12.1.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.3.5",
+		"prettier": "2.5.1",
+		"typescript": "4.6.2"
+	}
+}
