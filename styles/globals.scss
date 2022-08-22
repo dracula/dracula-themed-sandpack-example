@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	font-family: "Fira Code", sans-serif;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+}
+
+main {
+	width: 50%;
+	max-width: 60rem;
+	min-width: 10rem;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 6rem 0 4rem 0;
+	display: flex;
+	flex-flow: wrap column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.title,
+.text {
+	width: 100%;
+	text-align: left;
+}
+
+.title {
+	margin: 0;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.sandpack-container {
+	width: 100%;
+
+	& > div {
+		width: 100%;
+	}
+}
