@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 					</a>
 					, see the documentation on the{" "}
 					<a
-						href="https://draculatheme.com/notepad-plus-plus"
+						href="https://draculatheme.com/sandpack"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
